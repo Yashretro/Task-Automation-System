@@ -1,5 +1,4 @@
-# My First Machine Learning Project
-# Stock Price Predictor - Learning ML by building!
+
 
 import pandas as pd
 import numpy as np
