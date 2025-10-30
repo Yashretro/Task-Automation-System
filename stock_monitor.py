@@ -28,7 +28,7 @@ def monitor_stocks():
         print("-" * 40)  
 
         if abs(percentage) > 3.0:  
-            print(f" BIG MOVE ALERT: {stock} moved {percentage:.2f}%!")
+            print(f" BIG MOVE {stock} moved {percentage:.2f}%!")
             print(f" Current: ${Current_price} | Previous: ${Previous_close} | Change: ${change:.2f}")
             print(f"significant movement")
 
